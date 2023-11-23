@@ -1,7 +1,7 @@
-# Java
+// **Java**
 This repository will document my learnings and projects using Java programming language
 
-What is Java?
+// What is Java?
 Java, is a versatile programming language characterized by its class-based and object-oriented nature. 
 It aims to minimize implementation dependencies, promoting the concept of "write once, run anywhere" (WORA), allowing compiled Java code to execute on various platforms without the necessity for recompilation.
 It was initially released in 1991, Java became part of Oracle Corporation. 
