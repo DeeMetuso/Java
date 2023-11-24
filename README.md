@@ -247,6 +247,12 @@ public class Main {
     System.out.println("The minimum is " + Math.min(a, b));
 }}
 
+# Java Classes and Objects
+
+In Java a class is a blueprint that defines the characteristics and behaviors of objects. 
+It includes constructors for object instantiation, methods for implementing functionalities, and variables or properties that describe object attributes. 
+The components of a class work together to create instances of that class with specific characteristics and behaviors.
+
 # Decision Control
 Activity 1:
 
