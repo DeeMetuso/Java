@@ -119,6 +119,134 @@ public class Dog {
     }
 }
 
+# Data Types 
+
+A data type establishes the range of values a variable can assume. For instance, if a variable is of the int data type, it is restricted to holding only integer values. 
+Java adheres to static typing, where the data type of a variable is determined during compilation. 
+Consequently, it is necessary to explicitly declare (specify) the variable's type before utilizing it. 
+There are 2 data types : primitive and non-primitive (reference) data types
+
+# Operators
+
+Java has the following operators: 
+-- Arithmetic
+-- Relational
+-- Logical
+-- Bitwise
+-- Assignment
+-- Misc
+
+Arithmetic operators are used for performing mathematical calculations on numerical values.
+
+Addition (+): Adds two operands.
+E.g. int result = a + b;
+Subtraction (-): Subtracts the right operand from the left operand
+
+Multiplication (*): Multiplies two operands.
+
+Division (/): Divides the left operand by the right operand.
+
+Modulus (%): Returns the remainder of the division of the left operand by the right operand.
+
+Relational operators are used to establish relationships between operands.
+
+Equal to (==): Checks if two operands are equal.
+
+
+Not equal to (!=): Checks if two operands are not equal.
+
+Greater than (>): Checks if the left operand is greater than the right operand.
+
+Less than (<): Checks if the left operand is less than the right operand.
+
+Greater than or equal to (>=): Checks if the left operand is greater than or equal to the right operand.
+
+Less than or equal to (<=): Checks if the left operand is less than or equal to the right operand.
+
+Bitwise operators perform operations on individual bits of binary numbers.
+int a, b = 60, 13; 
+AND (&): Bitwise AND.
+a = 0011 1100
+b = 0000 1101
+a&b >>> 00001100 >>> 12
+
+OR (|): Bitwise OR.
+a = 0011 1100
+b = 0000 1101
+a|b >>> 00111101 >>> 61
+
+XOR (^): Bitwise XOR.
+a = 0011 1100
+b = 0000 1101
+a^b >>> 00110001 >>> 49
+NOT (~): Bitwise NOT.
+
+Left Shift (<<): Shifts bits to the left.
+b << 2 
+00110100 = 52
+Right Shift (>>): Shifts bits to the right.
+b >> 2
+00000011 = 3
+
+Logical operators perform logical operations on boolean values.
+boolean a = 1; // True
+boolean b = 0; // False
+AND (&&): Logical AND.
+a&&b = False
+
+OR (||): Logical OR.
+a||b = True
+
+NOT (!): Logical NOT. 
+!(a&&b) = True
+
+Assignment operators are used to assign values to variables.
+
+Assignment (=): Assigns the value on the right to the variable on the left.
+E.g. int a = 5;
+Add and Assign (+=): Adds the right operand to the left operand and assigns the result to the left operand.
+E.g. a += 5;  // equivalent to a = a + 5;
+Subtract and Assign (-=): Subtracts the right operand from the left operand and assigns the result to the left operand.
+E.g. a -= 3;  // equivalent to a = a - 3;
+
+
+Multiply and Assign (*=): Multiplies the left operand by the right operand and assigns the result to the left operand.
+E.g. a *= 2;  // equivalent to a = a * 2;
+
+Miscellaneous Operators:
+These include the ternary operator and the instanceof operator.
+
+Ternary Operator (?:): A shorthand way of writing an if-else statement.
+E.g. int max = (a > b) ? a : b;
+
+Instanceof Operator: Checks if an object is an instance of a particular class or interface.
+E.g. if (obj instanceof MyClass) {
+    // Code block
+}
+
+
+
+Divide and Assign (/=): Divides the left operand by the right operand and assigns the result to the left operand.
+E.g. a /= 4;  // equivalent to a = a / 4;
+
+# Activity 3: Write a Java program that accepts two integers from the user and then prints the sum, the difference, the product, the average, the maximum (the larger of the two integers), the minimum (smaller of the two integers)
+
+import java.util.Scanner
+public class Main {
+  public static void main(String[] args) {
+    Scanner numInput = new Scanner(System.in);
+    int a, b;
+    System.out.println("Enter 2 integers");
+    a = numInput.nextInt();
+    b = numInput.nextInt();
+    System.out.println("The sum equals: " + (a + b));
+    System.out.println("The difference is " + Math.abs(a - b));
+    System.out.println("The product is " + (a * b));
+    System.out.println("The average is " + ((a + b)/2));
+    System.out.println("The maximum is " + Math.max(a, b));
+    System.out.println("The minimum is " + Math.min(a, b));
+}}
+
 # Decision Control
 Activity 1:
 
