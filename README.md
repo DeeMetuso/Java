@@ -119,4 +119,32 @@ public class Dog {
     }
 }
 
+# Decision Control
+Activity 1:
 
+import java.util.Scanner;
+
+    public class Classgrading {
+    /* This is for a school grading system. The user asked to input the marks of the student, then a Grade from A - F is displayed */
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter the marks of the student: ");
+            int marks = sc.nextInt();
+            if (marks >= 80 && marks <= 100) {
+                System.out.println("Grade: A");
+            } else if (marks <= 80 && marks >= 60) {
+                System.out.println("Grade: B");
+            } else if (marks < 60 && marks >= 50) {
+                System.out.println("Grade: C");
+                
+    }         else if (marks < 50 && marks >= 45) {
+                System.out.println("Grade: D");
+    }
+              else if (marks < 45 && marks >= 0) {
+                System.out.println("Grade: F");
+    }
+              else {
+                System.out.println("Invalid marks");
+            }
+}}
+            
