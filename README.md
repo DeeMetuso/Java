@@ -323,3 +323,29 @@ Git, is known for its rapid execution, significantly reduces the time required f
 An important advantage of Git is its support for offline work. In cases of internet connectivity issues, Git allows us to perform nearly all tasks locally. This is in contrast to other version control systems like SVN, which are more limited and prefer a connection with the central repository.
 Git provides an additional benefit of undoing mistakes, offering a valuable option for rectifying errors. This undo feature is applicable to various actions within Git.
 Furthermore, Git offers useful features such as Diff, Log, and Status, facilitating the tracking of changes. These features enable us to assess the status of the project, compare files or branches, and stay informed about modifications.
+
+Activity 2: Instructions for installing Git
+
+To install git first download git installer.
+The installer can be downloaded from this link https://git-scm.com/downloads
+
+After downloading and installing Git, you need to configure the environment
+Configuring Git involves using the git config command to set various configuration variables that influence how Git functions. After installing Git, configuration is crucial, and the git config command supports both getting and setting these variables globally or for specific projects.
+
+The necessary configuration options include setting user.name and user.email to ensure your name and email appear correctly in commit messages. 
+For e.g. 
+$ git config --global user.name "Makabongwe Metuso"
+$ git config --global user.email makabongwe.metuso@capaciti.org.za
+
+Checking configuration settings can be done using the git config --list command. Git also allows customization of output colors, with the color.ui option. The colour can be set as true, false, auto and always 
+For e.g.
+$ git config --global color.ui true
+
+Git supports different configuration levels:
+
+Local (--local): Default level, writing to the local project's .git/config file.
+Global (--global): User-specific configuration stored in the home directory.
+System (--system): Applied across the entire system, affecting all users and repositories.
+
+
+
