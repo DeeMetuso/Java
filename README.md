@@ -282,3 +282,35 @@ import java.util.Scanner;
             }
 }}
             
+# Week 2 - Git Version Control
+
+What is Git?
+A version control system is a software that monitors changess made to a file or group of files over time, enabling the retrieval of specific versions at a later stage. It facilitates collaborative work among developers. The system comprises a set of software tools designed to aid a team in handling modifications to source code. It employs a unique database to record every change made to the code.
+
+Numerous git hosting services, both free and commercial, are available in the market, such as GitHub, Bitbucket, and GitLab.
+
+Git is a distributed version control system available as open-source. It is crafted to efficiently manage projects of varying scales, ensuring swift and effective handling. Its primary purpose is to facilitate collaboration among developers, enabling seamless coordination of work. The version control feature permits tracking and concurrent collaboration with team members within the same workspace.
+
+Git serves as the foundation for numerous services like GitHub and GitLab; however, it can be employed independently without relying on additional Git services. Whether for private or public use, Git provides versatility.
+Initially developed by Linus Torvalds in 2005 for the Linux Kernel project, Git is known for its easy learning curve and fast performance. It outperforms other Source Code Management (SCM) tools such as Subversion, CVS, Perforce, and ClearCase.
+
+Activity 1: State and explain the nine prominent features of Git
+
+-- Distributed Version Control:
+Git operates in a distributed manner, allowing each developer to possess a complete local copy of the repository. This design supports offline work and enhances system resilience.
+-- Efficient Branching and Merging:
+Git simplifies branching and merging operations, enabling developers to work on features or bug fixes independently before seamlessly integrating changes back into the main branch.
+Speed and Efficiency:
+Git is optimized for speed, making it suitable for projects of varying scales. Its quick performance is attributed to well-designed operations such as commit, branch creation, and merging.
+-- Data Integrity Assurance:
+Using a unique hashing algorithm, Git ensures the integrity of data. Each file and commit undergo checksum validation, guaranteeing consistency and reliability throughout the version history.
+-- Staging Area Control:
+Git's staging area provides developers with a two-step commit process, allowing for selective inclusion of changes. This feature ensures precise control over the content added to the version history.
+-- Open Source Collaboration:
+Git's open-source nature fosters collaboration, with a global community contributing to its ongoing development. This collaborative environment has led to extensive documentation, resources, and third-party tools.
+-- Security and Cryptographic Authentication:
+Git employs cryptographic hashes and public-key cryptography to secure communication and authentication. Each commit is uniquely identified, ensuring the integrity of the commit history.
+-- Support for Non-linear Development:
+Git accommodates non-linear development through its support for complex branch and merge strategies. This flexibility is crucial for managing projects with multiple concurrent development efforts.
+-- Extensibility and Integration:
+Git's extensibility allows developers to customize and extend its functionality. A variety of hooks, plugins, and third-party tools seamlessly integrate with Git, enhancing its capabilities and adaptability to diverse workflows.
