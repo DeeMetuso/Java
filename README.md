@@ -119,6 +119,12 @@ public class Dog {
     }
 }
 
+# Java basic fundamentals
+-- What is a variable?
+A variable is a designated label for a memory location, constituting the fundamental storage unit in a program. 
+The content within a variable can be modified during the course of program execution. 
+Essentially, a variable is solely a designation for a memory location, and any operations conducted on the variable impact that specific memory location. All variables must be declared before employing them.
+
 # Data Types 
 
 A data type establishes the range of values a variable can assume. For instance, if a variable is of the int data type, it is restricted to holding only integer values. 
