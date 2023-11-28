@@ -132,6 +132,20 @@ Java adheres to static typing, where the data type of a variable is determined d
 Consequently, it is necessary to explicitly declare (specify) the variable's type before utilizing it. 
 There are 2 data types : primitive and non-primitive (reference) data types
 
+-- Activity: Describe casting in Java
+
+There are 2 types of casting in Java
+Widening:
+This involves converting a smaller data type to a larger data type. This happens automatically as Java supports widening casting implicitly.
+For e.g. 
+int intValue = 5;
+double doubleValue = intValue
+Narrowing:
+It involves converting a larger data type to a smaller data type. This requires explicit casting, as it may result in data loss.
+For e.g.
+double doubleValue = 5.67;
+int intValue = (int) doubleValue
+
 # Operators
 
 Java has the following operators: 
@@ -352,6 +366,39 @@ Git supports different configuration levels:
 Local (--local): Default level, writing to the local project's .git/config file.
 Global (--global): User-specific configuration stored in the home directory.
 System (--system): Applied across the entire system, affecting all users and repositories.
+
+# Git tools and packages
+
+Git Tools encompass various applications that facilitate interaction between users and the Git version control system. 
+These tools, such as Git Bash and Git GUI, serve as interfaces for users to navigate Git's robust functionalities. 
+Git supports both built-in and third-party tools to cater to diverse user preferences.
+
+Built-in Git GUI tools, including Git Bash, git-gui, and gitk, offer features for committing and browsing within the Git environment. 
+Additionally, Git is compatible with various third-party tools, providing users with platform-specific experiences.
+
+Git offers powerful functionality tools, including commands, command line interfaces, and Git GUI. Let's explore two essential package tools:
+
+--Git Bash:
+
+Description: Git Bash is designed for Windows environments, serving as a Git command line for Windows. 
+It provides an emulation layer for a Git command-line experience within the Windows operating system.
+Usage: Git Bash is part of the Git package installer on Windows and can be accessed by right-clicking on a folder in Windows Explorer. 
+It includes additional commands stored in the /usr/bin directory, enhancing the shell experience on Windows.
+
+--Git GUI:
+
+Description: Git GUI is a robust alternative to Git Bash, offering a graphical representation of Git command line functions. 
+It features comprehensive visual diff tools for a more user-friendly experience.
+Usage: Git GUI can be accessed by right-clicking on a folder or location in Windows Explorer. 
+Alternatively, it can be accessed through the command line using the command $ git gui.
+
+--Gitk
+Gitk functions as a graphical tool for viewing the history of a Git repository. It offers a robust GUI, incorporating the capabilities of Git log and Git grep. 
+Its primary purpose is to help users explore past events or understand the evolution of a project. 
+To use Gitk, one can launch it from the command line within a Git repository by typing $ gitk and, if needed, specifying additional Git log options.
+
+
+
 
 
 
