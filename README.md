@@ -509,6 +509,48 @@ Git Rm:
 Git Fork:
 A fork represents a replicated version of a repository. Forking a repository provides the freedom to experiment and debug changes without impacting the original project. Forks are particularly useful for proposing bug fixes. To address a bug you've identified, the process involves forking the repository, implementing the fix, and then submitting a pull request to the project owner.
 
+Activity 1:
+
+What is the difference between git reset and git revert?
+
+Git Reset: 
+It is used to undo changes by resetting the branch to a specific commit. It discards commits and can be forceful, potentially leading to data loss. It has three main forms: Soft (preserves changes locally), Mixed (default, preserves changes in working directory), and Hard (discards changes entirely).
+Git Revert: It is used to create a new commit that undoes a previous commit, effectively reverting changes. It is a safer option for shared branches as it doesn't alter existing commits but adds new ones.
+
+When to use:
+Use git reset when working on local branches and confident about discarding changes.
+Use git revert when changes have been pushed to a shared branch to maintain commit history.
+
+What is the difference between git merge and git rebase?
+
+Git Merge: 
+Integrates changes from one branch into another, creating a merge commit. It preserves the commit history of both branches.
+Git Rebase: 
+Transplants the entire branch onto another base commit, creating a linear history. It rewrites commit history.
+
+Use git merge for a straightforward integration of changes when preserving original commit history is essential.
+Use git rebase for a cleaner, linear history, especially in feature branches, but avoid it on shared branches to prevent rewriting shared history.
+
+Difference between git stash pop and git stash apply:
+
+Git Stash Pop: 
+Applies the most recently stashed changes and removes them from the stash.
+Git Stash Apply: 
+Applies stashed changes but retains them in the stash.
+
+When to use:
+Use git stash pop when you're sure you won't need the stashed changes afterward.
+Use git stash apply when you want to keep the stashed changes for future use.
+
+What kinds of things can you do in interactive mode when rebasing?
+In interactive mode during rebasing (git rebase -i), you can:
+
+Reorder commits.
+Squash or combine multiple commits into one.
+Edit commit messages.
+Split a commit into smaller commits.
+Delete or drop commits.
+This interactive mode provides fine-grained control over commit history, allowing developers to craft a clean and logically organized history.
 
 
 
