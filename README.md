@@ -553,5 +553,106 @@ Delete or drop commits.
 This interactive mode provides fine-grained control over commit history, allowing developers to craft a clean and logically organized history.
 
 
+# Intro to Software Development Life Cycle (SDLC)
 
+# SDLC Models
+
+ The V-Model, also known as the Verification and Validation model, is a sequential software development life cycle (SDLC) model shaped like a 'V.' 
+ It is an extension of the waterfall model and emphasizes a disciplined approach, with each development phase having a directly associated testing phase. 
+ The model includes Verification phases on one side of the 'V' and Validation phases on the other, with the Coding Phase connecting the two sides. 
+ This structured approach ensures that each phase is completed before moving on to the next, maintaining a rigorous and systematic development process.
+
+Business Requirement Analysis is the initial phase of the development cycle, focusing on understanding product requirements from the customer's perspective through detailed communication. 
+This critical activity involves managing customer expectations and requirements, as customers often lack clarity about their needs. 
+The phase includes planning for acceptance test design, utilizing business requirements as input for acceptance testing.
+
+System Design follows when clear and detailed product requirements are obtained, aiming to design the entire system. 
+This involves specifying the hardware and communication setup for the product and developing a system test plan based on the system design. 
+Conducting these activities early allows more time for subsequent test execution.
+
+Architectural Design comes next, where architectural specifications are comprehended and designed. 
+Multiple technical approaches are usually proposed, and a final decision is made based on technical and financial feasibility. 
+This phase, also known as High-Level Design (HLD), breaks down the system design into modules with different functionalities. 
+Data transfer and communication between internal modules and external systems are clearly defined, enabling the design and documentation of integration tests.
+
+Module Design, also known as Low-Level Design (LLD), involves specifying the detailed internal design for all system modules. 
+Compatibility with other modules in the system architecture and external systems is crucial in this phase. 
+Unit tests play a vital role in identifying faults and errors early in the development process. 
+At this stage, unit tests can be designed based on the internal module designs to ensure the effective elimination of issues at an early stage.
+
+# Activity 1: What are the pros and cons of the V-Model
+
+What are the pros and cons of using V-model
+Pros of V-Model:
+
+Structured Approach:
+The V-Model provides a systematic and structured approach to software development. Each development phase has a corresponding testing phase, ensuring that verification and validation activities are well-integrated throughout the life cycle.
+
+Early Detection of Defects:
+Because testing is performed at each stage, defects can be identified and addressed early in the development process.
+
+Clear Documentation:
+The model emphasizes the documentation of requirements, design, and test plans at each stage. This clear documentation can facilitate communication among team members and stakeholders.
+
+Client Involvement:
+The model involves detailed communication with the client during the business requirement analysis phase, ensuring that client expectations are well-understood and addressed throughout the development process.
+
+Parallel Development and Testing:
+The V-Model allows for parallel development and testing activities, potentially reducing the overall project timeline.
+
+Cons of Verification and Validation Model:
+
+Rigidity:
+The model is very rigid. Once a phase is completed, it is challenging to go back and make changes without affecting subsequent phases, potentially leading to delays and increased costs.
+
+Limited Flexibility:
+The model may not be well-suited for projects where requirements are expected to evolve or change frequently. It is more accommodating to projects with stable and well-defined requirements.
+
+Not Ideal for Large Projects:
+For large and complex projects, the V-Model's sequential nature may pose challenges in terms of scalability and adaptability to changing requirements.
+
+Client Involvement Timing:
+While client involvement is a pro, the detailed communication with the client primarily happens in the early stages. This may lead to misunderstandings if requirements change later in the project, and there is limited flexibility to accommodate these changes.
+
+Dependency on Initial Requirements:
+The success of the V-Model is heavily dependent on accurate and complete initial requirements. If there are inaccuracies or omissions in the requirements, it can lead to problems later in the development process.
+
+# More about SDLC models
+
+Spiral model
+The spiral model is a risk-driven approach to software development, incorporating elements from various process models such as waterfall and incremental. 
+It amalgamates the strengths of prototyping and waterfall models, creating a methodology that combines rapid prototyping with concurrent design and development activities.
+The model has the following phases:
+
+Identification phase:
+The Identification phase initiates with gathering business requirements in the baseline spiral, progressing to the identification of system, subsystem, and unit requirements as the product evolves in subsequent spirals. Continuous communication between the customer and the system analyst is integral to understanding system requirements. The culmination of this phase involves deploying the product in the identified market at the spiral's end.
+
+Design phase:
+Commencing with conceptual design in the baseline spiral, the Design phase encompasses architectural design, logical module design, physical product design, and final design in subsequent spirals.
+
+Construct or Build phase:
+The Construct phase involves producing the actual software product in every spiral. In the baseline spiral, a Proof of Concept (POC) is developed during the conceptual stage for customer feedback. Subsequent spirals yield working software models called builds, each assigned a version number. These builds are submitted to the customer for feedback as requirements and design details become clearer.
+
+Evaluation and Risk Analysis phase:
+Risk Analysis in this phase entails identifying, estimating, and monitoring technical feasibility and management risks, such as schedule slippage and cost overrun. Following build testing, the customer evaluates the software and provides feedback at the end of the first iteration.
+
+Big Bang model
+The Big Bang model in software development focuses on coding and utilizes minimal planning. 
+It is most effective for small projects with a compact development team, especially in academic settings. This model is suitable when requirements are unknown or when no final release date is specified.
+
+Advantages:
+- Simple and requires minimal planning.
+- Easy to manage with no formal procedures.
+- Suitable for small projects with low risk.
+- Offers flexibility to developers.
+- Acts as a useful learning aid for newcomers or students.
+
+Disadvantages:
+- High risk and uncertainty involved.
+- Not suitable for complex or object-oriented projects.
+- Inadequate for long and ongoing projects.
+- May become expensive if requirements are misunderstood, leading to potential project reversal or scrapping.
+
+The Waterfall Model
+The Waterfall model, a widely accepted SDLC approach, divides software development into sequential phases where the output of one phase becomes the input for the next. Beginning with extensive planning and design, it progresses through testing before final deployment. Despite its advantages of departmentalization and control, Waterfall is criticized for its rigidity, hindering adaptation to changing requirements and lacking continuous feedback. This drawback led to the development of more flexible methodologies like Agile. Although the Waterfall method follows a predetermined path derived from traditional engineering, it became a standard for large projects globally. The model's advantages include simplicity, ease of management, clear stages, well-defined milestones, and suitability for smaller projects with well-understood requirements, ensuring a documented process and results.
 
