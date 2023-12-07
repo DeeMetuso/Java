@@ -656,3 +656,25 @@ Disadvantages:
 The Waterfall Model
 The Waterfall model, a widely accepted SDLC approach, divides software development into sequential phases where the output of one phase becomes the input for the next. Beginning with extensive planning and design, it progresses through testing before final deployment. Despite its advantages of departmentalization and control, Waterfall is criticized for its rigidity, hindering adaptation to changing requirements and lacking continuous feedback. This drawback led to the development of more flexible methodologies like Agile. Although the Waterfall method follows a predetermined path derived from traditional engineering, it became a standard for large projects globally. The model's advantages include simplicity, ease of management, clear stages, well-defined milestones, and suitability for smaller projects with well-understood requirements, ensuring a documented process and results.
 
+# Activity 2: List disadvantages of waterfall model
+
+Rigidity:
+The model is inflexible and struggles to accommodate changes in requirements.
+Limited Flexibility:
+Once a phase is completed, making modifications becomes challenging.
+Lack of Continuous Feedback:
+Continuous feedback is lacking, leading to potential issues being identified only during testing.
+Long Delivery Time:
+The sequential nature of the model often results in a longer delivery time.
+Higher Risk of Project Failure:
+Misunderstood or unclear requirements can pose significant challenges, potentially leading to project failure.
+Inefficiency for Large Projects:
+The model may not be efficient for large and complex projects with evolving requirements.
+Customer Involvement Timing:
+Limited customer interaction during development may result in a final product that does not fully meet expectations.
+Late Detection of Defects:
+Defects may only be identified during the testing phase, increasing the difficulty and cost of addressing issues.
+Not Suitable for Ongoing Maintenance:
+The model is not well-suited for projects requiring ongoing maintenance and updates.
+Documentation Overhead:
+While thorough documentation is an advantage, it can also lead to increased overhead if documentation becomes outdated or if there are changes in requirements.
